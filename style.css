@@ -1,0 +1,231 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+/*                */
+/*                */
+/*  header style  */
+/*                */
+/*                */
+
+.header {
+    padding: 16px;
+    color: #F9FAF8;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-right li {
+    list-style: none;
+}
+
+.header-right ul {
+    display: flex;
+    gap: 24px;
+}
+
+/*               */
+/*               */
+/* layer 1 style */
+/*               */
+/*               */
+
+.layer-1 {
+    /*background-color: #292929;*/
+    background-image: url("images/moon.png");
+}
+
+.layer-1-content {
+    display: flex;
+    justify-content: center;
+    padding: 130px;
+    gap: 50px;
+}
+
+.layer-1-content-left {
+    max-width: 500px;
+    align-self: center;
+}
+
+.layer-1-content-right {
+    max-width: 600px;
+    align-self: center;
+}
+
+.layer-1 .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.layer-1 .text {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 300;
+}
+
+.layer-1 .sign-up {
+    background-color: #ee315e;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.layer-1 span {
+    color: #ee315e;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.red-moon {
+    max-width: 600px;
+    filter: drop-shadow(0px 0px 20px #ee315e);
+    border-radius: 30px;
+}
+
+/*               */
+/*               */
+/* layer 2 style */
+/*               */
+/*               */
+
+.layer-2 {
+    padding: 80px;
+    text-align: center;
+}
+
+.layer-2 .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+.layer-2 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 52px;
+}
+
+.layer-2 .info {
+    max-width: 250px;
+    font-size: 20px;
+}
+
+.layer-2 img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+
+    color: #ee315e;
+}
+
+/*               */
+/*               */
+/* layer 3 style */
+/*               */
+/*               */
+
+.layer-3 {
+    background-color: #E5E7EB;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.layer-3 .text-box {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    max-width: 800px;
+}
+
+.layer-3 .quoter {
+    font-style: normal;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*               */
+/*               */
+/* layer 4 style */
+/*               */
+/*               */
+
+.layer-4 {
+    padding: 100px;
+    color: #F9FAF8;
+}
+
+.layer-4 .content {
+    display: flex;
+    background-color: #ee315e;
+    padding: 60px 200px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.layer-4 .left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.layer-4 button {
+    color: #E5E7EB;
+    background-color: #ee315e;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 6px 28px;
+    font-weight: 700;
+    font-size: 20px;
+    align-self: center;
+}
+
+/*               */
+/*               */
+/*    footer     */
+/*               */
+/*               */
+
+.footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.footer a {
+    color: #ee315e;
+    font-weight: 700;
+}
